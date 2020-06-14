@@ -59,7 +59,7 @@ namespace HomeWorkSerializationDeserealization
             }
             else
             {
-                Console.WriteLine("You are exiting app...");
+                Console.WriteLine("Serialization...");
             }
 
         }
@@ -69,6 +69,9 @@ namespace HomeWorkSerializationDeserealization
         /// </summary>
         public static void DeserializeAndPrintAllDogs()
         {
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Deserialization...");
+
             List<Dog> dogsFromFile = JsonConvert.DeserializeObject<List<Dog>>(File.ReadAllText(dogFilePath));
 
             foreach (Dog dog in dogsFromFile)

@@ -11,7 +11,6 @@ namespace HomeWorkSerializationDeserealization
         static void Main(string[] args)
         {
             DogRepository.AddAndSerializeDogs();
-
             DogRepository.DeserializeAndPrintAllDogs();
 
             Console.ReadKey();
