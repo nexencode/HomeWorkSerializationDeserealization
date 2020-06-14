@@ -33,7 +33,7 @@ namespace HomeWorkSerializationDeserealization
         /// </summary>
         public static void AddNewDog(List<Dog> listOfDogs)
         {
-            Console.WriteLine("Press 'Y' to add new dog or press 'Q' to exit from application: ");
+            Console.WriteLine("Press 'Y' to add new dog or press any key to exit from application: ");
 
             if (Console.ReadLine().ToLower() == "y")
             {
