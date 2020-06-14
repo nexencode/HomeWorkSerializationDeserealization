@@ -13,7 +13,7 @@ namespace HomeWorkSerializationDeserealization
         const string dogFilePath = @"C:\Users\nexen\source\repos\HomeWorkSerializationDeserealization\dogs.json";
 
         /// <summary>
-        /// Add new dogs to List and Serialize file .
+        /// Add new dogs to List and Serialize file.
         /// </summary>
         public static void AddAndSerializeDogs()
         {
